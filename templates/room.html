@@ -1,0 +1,11 @@
+<div style="margin:20px 0; border:1px solid #eee; min-height:100px;">
+	<div ng-repeat="message in messages">{{message.from}}: {{message.content}}</div>
+</div>
+
+<div>
+	<input type="text" class="form-control" ng-model="user">
+	<input type="text" class="form-control" ng-model="message">
+
+	<button type="button" class="btn btn-primary btn-block" ng-click="addMessage()">Send</button>
+
+</div>

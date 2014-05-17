@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'avenir';
+    src: url('../fonts/avenirnextroundedpro-reg-webfont.eot');
+    src: url('../fonts/avenirnextroundedpro-reg-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/avenirnextroundedpro-reg-webfont.woff') format('woff'), url('../fonts/avenirnextroundedpro-reg-webfont.ttf') format('truetype'), url('../fonts/avenirnextroundedpro-reg-webfont.svg#avenir_next_rounded_proRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'avenir_demiBold';
+    src: url('../fonts/avenirnextroundedpro-demi-webfont.eot');
+    src: url('../fonts/avenirnextroundedpro-demi-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/avenirnextroundedpro-demi-webfont.woff') format('woff'), url('../fonts/avenirnextroundedpro-demi-webfont.ttf') format('truetype'), url('../fonts/avenirnextroundedpro-demi-webfont.svg#avenir_next_rounded_proRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'avenir_bold';
+    src: url('../fonts/avenirnextroundedpro-bold-webfont.eot');
+    src: url('../fonts/avenirnextroundedpro-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/avenirnextroundedpro-bold-webfont.woff') format('woff'), url('../fonts/avenirnextroundedpro-bold-webfont.ttf') format('truetype'), url('../fonts/avenirnextroundedpro-bold-webfont.svg#avenir_next_rounded_proRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	margin:0;
+	padding:0;
+    font-family: 'avenir', sans-serif;
+    font-size: 10pt;
+}
+
+a:hover { text-decoration:none; }
+
+#header { 
+	box-shadow: 0 4px 2px -2px gray;
+}	
+
+.logo {
+	font-family: 'avenir_demiBold', sans-serif;
+    font-size:30pt; line-height:80px;
+}
+
+@media (max-width: 480px) {
+	
+	#header {
+		text-align:center;
+	}
+
+	.logo {
+		font-size:20pt; line-height:40px;
+	}
+}

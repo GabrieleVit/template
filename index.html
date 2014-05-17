@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="talkOn">
+<head>
+	<title>TalkOn</title>
+	<meta name="viewport" content="width=device-width">
+	<!-- Firebase -->
+	<script src="https://cdn.firebase.com/js/client/1.0.11/firebase.js"></script>
+	<!-- AngularJS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
+	<!-- AngularFire Library -->
+	<script src="https://cdn.firebase.com/libs/angularfire/0.7.1/angularfire.min.js"></script>
+	<script src="js/angular-ui-router.js"></script>
+	<script src="//cdn.firebase.com/js/simple-login/1.4.1/firebase-simple-login.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/controllers.js"></script>
+	<script src="js/services.js"></script>
+	<script src="js/moment.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+	
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="header">
+		<div class="container">
+			<div class="logo"><a ui-sref="main"><span style="color:#ee6b3f;">t</span><span style="color:#fdc206;">a</span><span style="color:#09a09b;">l</span><span style="color:#00afdc;">k</span><span style="color:#fa7a6d;">o</span><span style="color:#68c4b9;">n</span></a></div>
+		</div>
+	</div>
+	<div class="container" ui-view></div>
+</body>
+</html>
